@@ -1,0 +1,1148 @@
+Step # 1
+Executed line # 1 : RANDOM s1(49) 
+ST { s1:49 }
+
+Step # 2
+Executed line # 2 : OUT_NUM s1(49) 
+ST { s1:49 }
+
+Step # 3
+Executed line # 3 : OUT_CHAR 10(10) 
+ST { s1:49 }
+
+Step # 4
+Executed line # 4 : JUMP end_of_factorial_2(33) 
+ST { s1:49 }
+
+Step # 5
+Executed line # 34 : end_of_factorial_2(33) : 
+ST { s1:49 }
+
+Step # 6
+Executed line # 35 : PUSH return_from_factorial_6(38) 
+ST { s1:49 }
+Stack (top) { 38 } (bottom)
+
+Step # 7
+Executed line # 36 : VAL_COPY 10(10) s13(10) 
+ST { s1:49 s13:10 }
+Stack (top) { 38 } (bottom)
+
+Step # 8
+Executed line # 37 : PUSH s13(10) 
+ST { s1:49 s13:10 }
+Stack (top) { 10 38 } (bottom)
+
+Step # 9
+Executed line # 38 : JUMP factorial_1(4) 
+ST { s1:49 s13:10 }
+Stack (top) { 10 38 } (bottom)
+
+Step # 10
+Executed line # 5 : factorial_1(4) : 
+ST { s1:49 s13:10 }
+Stack (top) { 10 38 } (bottom)
+
+Step # 11
+Executed line # 6 : POP s2(10) 
+ST { s1:49 s13:10 s2:10 }
+Stack (top) { 38 } (bottom)
+
+Step # 12
+Executed line # 7 : VAL_COPY 1(1) s3(1) 
+ST { s1:49 s13:10 s2:10 s3:1 }
+Stack (top) { 38 } (bottom)
+
+Step # 13
+Executed line # 8 : TEST_EQU s2(10) s3(1) s4(0) 
+ST { s1:49 s13:10 s2:10 s3:1 s4:0 }
+Stack (top) { 38 } (bottom)
+
+Step # 14
+Executed line # 9 : JUMP_IF_0 s4(0) after_if_true_block_4(14) 
+ST { s1:49 s13:10 s2:10 s3:1 s4:0 }
+Stack (top) { 38 } (bottom)
+
+Step # 15
+Executed line # 15 : after_if_true_block_4(14) : 
+ST { s1:49 s13:10 s2:10 s3:1 s4:0 }
+Stack (top) { 38 } (bottom)
+
+Step # 16
+Executed line # 16 : PUSH s2(10) 
+ST { s1:49 s13:10 s2:10 s3:1 s4:0 }
+Stack (top) { 10 38 } (bottom)
+
+Step # 17
+Executed line # 17 : PUSH s3(1) 
+ST { s1:49 s13:10 s2:10 s3:1 s4:0 }
+Stack (top) { 1 10 38 } (bottom)
+
+Step # 18
+Executed line # 18 : PUSH s4(0) 
+ST { s1:49 s13:10 s2:10 s3:1 s4:0 }
+Stack (top) { 0 1 10 38 } (bottom)
+
+Step # 19
+Executed line # 19 : PUSH return_from_factorial_5(23) 
+ST { s1:49 s13:10 s2:10 s3:1 s4:0 }
+Stack (top) { 23 0 1 10 38 } (bottom)
+
+Step # 20
+Executed line # 20 : VAL_COPY 1(1) s8(1) 
+ST { s1:49 s13:10 s2:10 s3:1 s4:0 s8:1 }
+Stack (top) { 23 0 1 10 38 } (bottom)
+
+Step # 21
+Executed line # 21 : SUB s2(10) s8(1) s9(9) 
+ST { s1:49 s13:10 s2:10 s3:1 s4:0 s8:1 s9:9 }
+Stack (top) { 23 0 1 10 38 } (bottom)
+
+Step # 22
+Executed line # 22 : PUSH s9(9) 
+ST { s1:49 s13:10 s2:10 s3:1 s4:0 s8:1 s9:9 }
+Stack (top) { 9 23 0 1 10 38 } (bottom)
+
+Step # 23
+Executed line # 23 : JUMP factorial_1(4) 
+ST { s1:49 s13:10 s2:10 s3:1 s4:0 s8:1 s9:9 }
+Stack (top) { 9 23 0 1 10 38 } (bottom)
+
+Step # 24
+Executed line # 5 : factorial_1(4) : 
+ST { s1:49 s13:10 s2:10 s3:1 s4:0 s8:1 s9:9 }
+Stack (top) { 9 23 0 1 10 38 } (bottom)
+
+Step # 25
+Executed line # 6 : POP s2(9) 
+ST { s1:49 s13:10 s2:9 s3:1 s4:0 s8:1 s9:9 }
+Stack (top) { 23 0 1 10 38 } (bottom)
+
+Step # 26
+Executed line # 7 : VAL_COPY 1(1) s3(1) 
+ST { s1:49 s13:10 s2:9 s3:1 s4:0 s8:1 s9:9 }
+Stack (top) { 23 0 1 10 38 } (bottom)
+
+Step # 27
+Executed line # 8 : TEST_EQU s2(9) s3(1) s4(0) 
+ST { s1:49 s13:10 s2:9 s3:1 s4:0 s8:1 s9:9 }
+Stack (top) { 23 0 1 10 38 } (bottom)
+
+Step # 28
+Executed line # 9 : JUMP_IF_0 s4(0) after_if_true_block_4(14) 
+ST { s1:49 s13:10 s2:9 s3:1 s4:0 s8:1 s9:9 }
+Stack (top) { 23 0 1 10 38 } (bottom)
+
+Step # 29
+Executed line # 15 : after_if_true_block_4(14) : 
+ST { s1:49 s13:10 s2:9 s3:1 s4:0 s8:1 s9:9 }
+Stack (top) { 23 0 1 10 38 } (bottom)
+
+Step # 30
+Executed line # 16 : PUSH s2(9) 
+ST { s1:49 s13:10 s2:9 s3:1 s4:0 s8:1 s9:9 }
+Stack (top) { 9 23 0 1 10 38 } (bottom)
+
+Step # 31
+Executed line # 17 : PUSH s3(1) 
+ST { s1:49 s13:10 s2:9 s3:1 s4:0 s8:1 s9:9 }
+Stack (top) { 1 9 23 0 1 10 38 } (bottom)
+
+Step # 32
+Executed line # 18 : PUSH s4(0) 
+ST { s1:49 s13:10 s2:9 s3:1 s4:0 s8:1 s9:9 }
+Stack (top) { 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 33
+Executed line # 19 : PUSH return_from_factorial_5(23) 
+ST { s1:49 s13:10 s2:9 s3:1 s4:0 s8:1 s9:9 }
+Stack (top) { 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 34
+Executed line # 20 : VAL_COPY 1(1) s8(1) 
+ST { s1:49 s13:10 s2:9 s3:1 s4:0 s8:1 s9:9 }
+Stack (top) { 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 35
+Executed line # 21 : SUB s2(9) s8(1) s9(8) 
+ST { s1:49 s13:10 s2:9 s3:1 s4:0 s8:1 s9:8 }
+Stack (top) { 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 36
+Executed line # 22 : PUSH s9(8) 
+ST { s1:49 s13:10 s2:9 s3:1 s4:0 s8:1 s9:8 }
+Stack (top) { 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 37
+Executed line # 23 : JUMP factorial_1(4) 
+ST { s1:49 s13:10 s2:9 s3:1 s4:0 s8:1 s9:8 }
+Stack (top) { 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 38
+Executed line # 5 : factorial_1(4) : 
+ST { s1:49 s13:10 s2:9 s3:1 s4:0 s8:1 s9:8 }
+Stack (top) { 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 39
+Executed line # 6 : POP s2(8) 
+ST { s1:49 s13:10 s2:8 s3:1 s4:0 s8:1 s9:8 }
+Stack (top) { 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 40
+Executed line # 7 : VAL_COPY 1(1) s3(1) 
+ST { s1:49 s13:10 s2:8 s3:1 s4:0 s8:1 s9:8 }
+Stack (top) { 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 41
+Executed line # 8 : TEST_EQU s2(8) s3(1) s4(0) 
+ST { s1:49 s13:10 s2:8 s3:1 s4:0 s8:1 s9:8 }
+Stack (top) { 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 42
+Executed line # 9 : JUMP_IF_0 s4(0) after_if_true_block_4(14) 
+ST { s1:49 s13:10 s2:8 s3:1 s4:0 s8:1 s9:8 }
+Stack (top) { 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 43
+Executed line # 15 : after_if_true_block_4(14) : 
+ST { s1:49 s13:10 s2:8 s3:1 s4:0 s8:1 s9:8 }
+Stack (top) { 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 44
+Executed line # 16 : PUSH s2(8) 
+ST { s1:49 s13:10 s2:8 s3:1 s4:0 s8:1 s9:8 }
+Stack (top) { 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 45
+Executed line # 17 : PUSH s3(1) 
+ST { s1:49 s13:10 s2:8 s3:1 s4:0 s8:1 s9:8 }
+Stack (top) { 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 46
+Executed line # 18 : PUSH s4(0) 
+ST { s1:49 s13:10 s2:8 s3:1 s4:0 s8:1 s9:8 }
+Stack (top) { 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 47
+Executed line # 19 : PUSH return_from_factorial_5(23) 
+ST { s1:49 s13:10 s2:8 s3:1 s4:0 s8:1 s9:8 }
+Stack (top) { 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 48
+Executed line # 20 : VAL_COPY 1(1) s8(1) 
+ST { s1:49 s13:10 s2:8 s3:1 s4:0 s8:1 s9:8 }
+Stack (top) { 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 49
+Executed line # 21 : SUB s2(8) s8(1) s9(7) 
+ST { s1:49 s13:10 s2:8 s3:1 s4:0 s8:1 s9:7 }
+Stack (top) { 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 50
+Executed line # 22 : PUSH s9(7) 
+ST { s1:49 s13:10 s2:8 s3:1 s4:0 s8:1 s9:7 }
+Stack (top) { 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 51
+Executed line # 23 : JUMP factorial_1(4) 
+ST { s1:49 s13:10 s2:8 s3:1 s4:0 s8:1 s9:7 }
+Stack (top) { 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 52
+Executed line # 5 : factorial_1(4) : 
+ST { s1:49 s13:10 s2:8 s3:1 s4:0 s8:1 s9:7 }
+Stack (top) { 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 53
+Executed line # 6 : POP s2(7) 
+ST { s1:49 s13:10 s2:7 s3:1 s4:0 s8:1 s9:7 }
+Stack (top) { 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 54
+Executed line # 7 : VAL_COPY 1(1) s3(1) 
+ST { s1:49 s13:10 s2:7 s3:1 s4:0 s8:1 s9:7 }
+Stack (top) { 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 55
+Executed line # 8 : TEST_EQU s2(7) s3(1) s4(0) 
+ST { s1:49 s13:10 s2:7 s3:1 s4:0 s8:1 s9:7 }
+Stack (top) { 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 56
+Executed line # 9 : JUMP_IF_0 s4(0) after_if_true_block_4(14) 
+ST { s1:49 s13:10 s2:7 s3:1 s4:0 s8:1 s9:7 }
+Stack (top) { 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 57
+Executed line # 15 : after_if_true_block_4(14) : 
+ST { s1:49 s13:10 s2:7 s3:1 s4:0 s8:1 s9:7 }
+Stack (top) { 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 58
+Executed line # 16 : PUSH s2(7) 
+ST { s1:49 s13:10 s2:7 s3:1 s4:0 s8:1 s9:7 }
+Stack (top) { 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 59
+Executed line # 17 : PUSH s3(1) 
+ST { s1:49 s13:10 s2:7 s3:1 s4:0 s8:1 s9:7 }
+Stack (top) { 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 60
+Executed line # 18 : PUSH s4(0) 
+ST { s1:49 s13:10 s2:7 s3:1 s4:0 s8:1 s9:7 }
+Stack (top) { 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 61
+Executed line # 19 : PUSH return_from_factorial_5(23) 
+ST { s1:49 s13:10 s2:7 s3:1 s4:0 s8:1 s9:7 }
+Stack (top) { 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 62
+Executed line # 20 : VAL_COPY 1(1) s8(1) 
+ST { s1:49 s13:10 s2:7 s3:1 s4:0 s8:1 s9:7 }
+Stack (top) { 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 63
+Executed line # 21 : SUB s2(7) s8(1) s9(6) 
+ST { s1:49 s13:10 s2:7 s3:1 s4:0 s8:1 s9:6 }
+Stack (top) { 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 64
+Executed line # 22 : PUSH s9(6) 
+ST { s1:49 s13:10 s2:7 s3:1 s4:0 s8:1 s9:6 }
+Stack (top) { 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 65
+Executed line # 23 : JUMP factorial_1(4) 
+ST { s1:49 s13:10 s2:7 s3:1 s4:0 s8:1 s9:6 }
+Stack (top) { 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 66
+Executed line # 5 : factorial_1(4) : 
+ST { s1:49 s13:10 s2:7 s3:1 s4:0 s8:1 s9:6 }
+Stack (top) { 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 67
+Executed line # 6 : POP s2(6) 
+ST { s1:49 s13:10 s2:6 s3:1 s4:0 s8:1 s9:6 }
+Stack (top) { 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 68
+Executed line # 7 : VAL_COPY 1(1) s3(1) 
+ST { s1:49 s13:10 s2:6 s3:1 s4:0 s8:1 s9:6 }
+Stack (top) { 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 69
+Executed line # 8 : TEST_EQU s2(6) s3(1) s4(0) 
+ST { s1:49 s13:10 s2:6 s3:1 s4:0 s8:1 s9:6 }
+Stack (top) { 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 70
+Executed line # 9 : JUMP_IF_0 s4(0) after_if_true_block_4(14) 
+ST { s1:49 s13:10 s2:6 s3:1 s4:0 s8:1 s9:6 }
+Stack (top) { 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 71
+Executed line # 15 : after_if_true_block_4(14) : 
+ST { s1:49 s13:10 s2:6 s3:1 s4:0 s8:1 s9:6 }
+Stack (top) { 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 72
+Executed line # 16 : PUSH s2(6) 
+ST { s1:49 s13:10 s2:6 s3:1 s4:0 s8:1 s9:6 }
+Stack (top) { 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 73
+Executed line # 17 : PUSH s3(1) 
+ST { s1:49 s13:10 s2:6 s3:1 s4:0 s8:1 s9:6 }
+Stack (top) { 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 74
+Executed line # 18 : PUSH s4(0) 
+ST { s1:49 s13:10 s2:6 s3:1 s4:0 s8:1 s9:6 }
+Stack (top) { 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 75
+Executed line # 19 : PUSH return_from_factorial_5(23) 
+ST { s1:49 s13:10 s2:6 s3:1 s4:0 s8:1 s9:6 }
+Stack (top) { 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 76
+Executed line # 20 : VAL_COPY 1(1) s8(1) 
+ST { s1:49 s13:10 s2:6 s3:1 s4:0 s8:1 s9:6 }
+Stack (top) { 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 77
+Executed line # 21 : SUB s2(6) s8(1) s9(5) 
+ST { s1:49 s13:10 s2:6 s3:1 s4:0 s8:1 s9:5 }
+Stack (top) { 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 78
+Executed line # 22 : PUSH s9(5) 
+ST { s1:49 s13:10 s2:6 s3:1 s4:0 s8:1 s9:5 }
+Stack (top) { 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 79
+Executed line # 23 : JUMP factorial_1(4) 
+ST { s1:49 s13:10 s2:6 s3:1 s4:0 s8:1 s9:5 }
+Stack (top) { 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 80
+Executed line # 5 : factorial_1(4) : 
+ST { s1:49 s13:10 s2:6 s3:1 s4:0 s8:1 s9:5 }
+Stack (top) { 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 81
+Executed line # 6 : POP s2(5) 
+ST { s1:49 s13:10 s2:5 s3:1 s4:0 s8:1 s9:5 }
+Stack (top) { 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 82
+Executed line # 7 : VAL_COPY 1(1) s3(1) 
+ST { s1:49 s13:10 s2:5 s3:1 s4:0 s8:1 s9:5 }
+Stack (top) { 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 83
+Executed line # 8 : TEST_EQU s2(5) s3(1) s4(0) 
+ST { s1:49 s13:10 s2:5 s3:1 s4:0 s8:1 s9:5 }
+Stack (top) { 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 84
+Executed line # 9 : JUMP_IF_0 s4(0) after_if_true_block_4(14) 
+ST { s1:49 s13:10 s2:5 s3:1 s4:0 s8:1 s9:5 }
+Stack (top) { 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 85
+Executed line # 15 : after_if_true_block_4(14) : 
+ST { s1:49 s13:10 s2:5 s3:1 s4:0 s8:1 s9:5 }
+Stack (top) { 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 86
+Executed line # 16 : PUSH s2(5) 
+ST { s1:49 s13:10 s2:5 s3:1 s4:0 s8:1 s9:5 }
+Stack (top) { 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 87
+Executed line # 17 : PUSH s3(1) 
+ST { s1:49 s13:10 s2:5 s3:1 s4:0 s8:1 s9:5 }
+Stack (top) { 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 88
+Executed line # 18 : PUSH s4(0) 
+ST { s1:49 s13:10 s2:5 s3:1 s4:0 s8:1 s9:5 }
+Stack (top) { 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 89
+Executed line # 19 : PUSH return_from_factorial_5(23) 
+ST { s1:49 s13:10 s2:5 s3:1 s4:0 s8:1 s9:5 }
+Stack (top) { 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 90
+Executed line # 20 : VAL_COPY 1(1) s8(1) 
+ST { s1:49 s13:10 s2:5 s3:1 s4:0 s8:1 s9:5 }
+Stack (top) { 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 91
+Executed line # 21 : SUB s2(5) s8(1) s9(4) 
+ST { s1:49 s13:10 s2:5 s3:1 s4:0 s8:1 s9:4 }
+Stack (top) { 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 92
+Executed line # 22 : PUSH s9(4) 
+ST { s1:49 s13:10 s2:5 s3:1 s4:0 s8:1 s9:4 }
+Stack (top) { 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 93
+Executed line # 23 : JUMP factorial_1(4) 
+ST { s1:49 s13:10 s2:5 s3:1 s4:0 s8:1 s9:4 }
+Stack (top) { 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 94
+Executed line # 5 : factorial_1(4) : 
+ST { s1:49 s13:10 s2:5 s3:1 s4:0 s8:1 s9:4 }
+Stack (top) { 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 95
+Executed line # 6 : POP s2(4) 
+ST { s1:49 s13:10 s2:4 s3:1 s4:0 s8:1 s9:4 }
+Stack (top) { 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 96
+Executed line # 7 : VAL_COPY 1(1) s3(1) 
+ST { s1:49 s13:10 s2:4 s3:1 s4:0 s8:1 s9:4 }
+Stack (top) { 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 97
+Executed line # 8 : TEST_EQU s2(4) s3(1) s4(0) 
+ST { s1:49 s13:10 s2:4 s3:1 s4:0 s8:1 s9:4 }
+Stack (top) { 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 98
+Executed line # 9 : JUMP_IF_0 s4(0) after_if_true_block_4(14) 
+ST { s1:49 s13:10 s2:4 s3:1 s4:0 s8:1 s9:4 }
+Stack (top) { 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 99
+Executed line # 15 : after_if_true_block_4(14) : 
+ST { s1:49 s13:10 s2:4 s3:1 s4:0 s8:1 s9:4 }
+Stack (top) { 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 100
+Executed line # 16 : PUSH s2(4) 
+ST { s1:49 s13:10 s2:4 s3:1 s4:0 s8:1 s9:4 }
+Stack (top) { 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 101
+Executed line # 17 : PUSH s3(1) 
+ST { s1:49 s13:10 s2:4 s3:1 s4:0 s8:1 s9:4 }
+Stack (top) { 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 102
+Executed line # 18 : PUSH s4(0) 
+ST { s1:49 s13:10 s2:4 s3:1 s4:0 s8:1 s9:4 }
+Stack (top) { 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 103
+Executed line # 19 : PUSH return_from_factorial_5(23) 
+ST { s1:49 s13:10 s2:4 s3:1 s4:0 s8:1 s9:4 }
+Stack (top) { 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 104
+Executed line # 20 : VAL_COPY 1(1) s8(1) 
+ST { s1:49 s13:10 s2:4 s3:1 s4:0 s8:1 s9:4 }
+Stack (top) { 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 105
+Executed line # 21 : SUB s2(4) s8(1) s9(3) 
+ST { s1:49 s13:10 s2:4 s3:1 s4:0 s8:1 s9:3 }
+Stack (top) { 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 106
+Executed line # 22 : PUSH s9(3) 
+ST { s1:49 s13:10 s2:4 s3:1 s4:0 s8:1 s9:3 }
+Stack (top) { 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 107
+Executed line # 23 : JUMP factorial_1(4) 
+ST { s1:49 s13:10 s2:4 s3:1 s4:0 s8:1 s9:3 }
+Stack (top) { 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 108
+Executed line # 5 : factorial_1(4) : 
+ST { s1:49 s13:10 s2:4 s3:1 s4:0 s8:1 s9:3 }
+Stack (top) { 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 109
+Executed line # 6 : POP s2(3) 
+ST { s1:49 s13:10 s2:3 s3:1 s4:0 s8:1 s9:3 }
+Stack (top) { 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 110
+Executed line # 7 : VAL_COPY 1(1) s3(1) 
+ST { s1:49 s13:10 s2:3 s3:1 s4:0 s8:1 s9:3 }
+Stack (top) { 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 111
+Executed line # 8 : TEST_EQU s2(3) s3(1) s4(0) 
+ST { s1:49 s13:10 s2:3 s3:1 s4:0 s8:1 s9:3 }
+Stack (top) { 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 112
+Executed line # 9 : JUMP_IF_0 s4(0) after_if_true_block_4(14) 
+ST { s1:49 s13:10 s2:3 s3:1 s4:0 s8:1 s9:3 }
+Stack (top) { 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 113
+Executed line # 15 : after_if_true_block_4(14) : 
+ST { s1:49 s13:10 s2:3 s3:1 s4:0 s8:1 s9:3 }
+Stack (top) { 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 114
+Executed line # 16 : PUSH s2(3) 
+ST { s1:49 s13:10 s2:3 s3:1 s4:0 s8:1 s9:3 }
+Stack (top) { 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 115
+Executed line # 17 : PUSH s3(1) 
+ST { s1:49 s13:10 s2:3 s3:1 s4:0 s8:1 s9:3 }
+Stack (top) { 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 116
+Executed line # 18 : PUSH s4(0) 
+ST { s1:49 s13:10 s2:3 s3:1 s4:0 s8:1 s9:3 }
+Stack (top) { 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 117
+Executed line # 19 : PUSH return_from_factorial_5(23) 
+ST { s1:49 s13:10 s2:3 s3:1 s4:0 s8:1 s9:3 }
+Stack (top) { 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 118
+Executed line # 20 : VAL_COPY 1(1) s8(1) 
+ST { s1:49 s13:10 s2:3 s3:1 s4:0 s8:1 s9:3 }
+Stack (top) { 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 119
+Executed line # 21 : SUB s2(3) s8(1) s9(2) 
+ST { s1:49 s13:10 s2:3 s3:1 s4:0 s8:1 s9:2 }
+Stack (top) { 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 120
+Executed line # 22 : PUSH s9(2) 
+ST { s1:49 s13:10 s2:3 s3:1 s4:0 s8:1 s9:2 }
+Stack (top) { 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 121
+Executed line # 23 : JUMP factorial_1(4) 
+ST { s1:49 s13:10 s2:3 s3:1 s4:0 s8:1 s9:2 }
+Stack (top) { 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 122
+Executed line # 5 : factorial_1(4) : 
+ST { s1:49 s13:10 s2:3 s3:1 s4:0 s8:1 s9:2 }
+Stack (top) { 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 123
+Executed line # 6 : POP s2(2) 
+ST { s1:49 s13:10 s2:2 s3:1 s4:0 s8:1 s9:2 }
+Stack (top) { 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 124
+Executed line # 7 : VAL_COPY 1(1) s3(1) 
+ST { s1:49 s13:10 s2:2 s3:1 s4:0 s8:1 s9:2 }
+Stack (top) { 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 125
+Executed line # 8 : TEST_EQU s2(2) s3(1) s4(0) 
+ST { s1:49 s13:10 s2:2 s3:1 s4:0 s8:1 s9:2 }
+Stack (top) { 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 126
+Executed line # 9 : JUMP_IF_0 s4(0) after_if_true_block_4(14) 
+ST { s1:49 s13:10 s2:2 s3:1 s4:0 s8:1 s9:2 }
+Stack (top) { 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 127
+Executed line # 15 : after_if_true_block_4(14) : 
+ST { s1:49 s13:10 s2:2 s3:1 s4:0 s8:1 s9:2 }
+Stack (top) { 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 128
+Executed line # 16 : PUSH s2(2) 
+ST { s1:49 s13:10 s2:2 s3:1 s4:0 s8:1 s9:2 }
+Stack (top) { 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 129
+Executed line # 17 : PUSH s3(1) 
+ST { s1:49 s13:10 s2:2 s3:1 s4:0 s8:1 s9:2 }
+Stack (top) { 1 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 130
+Executed line # 18 : PUSH s4(0) 
+ST { s1:49 s13:10 s2:2 s3:1 s4:0 s8:1 s9:2 }
+Stack (top) { 0 1 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 131
+Executed line # 19 : PUSH return_from_factorial_5(23) 
+ST { s1:49 s13:10 s2:2 s3:1 s4:0 s8:1 s9:2 }
+Stack (top) { 23 0 1 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 132
+Executed line # 20 : VAL_COPY 1(1) s8(1) 
+ST { s1:49 s13:10 s2:2 s3:1 s4:0 s8:1 s9:2 }
+Stack (top) { 23 0 1 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 133
+Executed line # 21 : SUB s2(2) s8(1) s9(1) 
+ST { s1:49 s13:10 s2:2 s3:1 s4:0 s8:1 s9:1 }
+Stack (top) { 23 0 1 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 134
+Executed line # 22 : PUSH s9(1) 
+ST { s1:49 s13:10 s2:2 s3:1 s4:0 s8:1 s9:1 }
+Stack (top) { 1 23 0 1 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 135
+Executed line # 23 : JUMP factorial_1(4) 
+ST { s1:49 s13:10 s2:2 s3:1 s4:0 s8:1 s9:1 }
+Stack (top) { 1 23 0 1 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 136
+Executed line # 5 : factorial_1(4) : 
+ST { s1:49 s13:10 s2:2 s3:1 s4:0 s8:1 s9:1 }
+Stack (top) { 1 23 0 1 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 137
+Executed line # 6 : POP s2(1) 
+ST { s1:49 s13:10 s2:1 s3:1 s4:0 s8:1 s9:1 }
+Stack (top) { 23 0 1 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 138
+Executed line # 7 : VAL_COPY 1(1) s3(1) 
+ST { s1:49 s13:10 s2:1 s3:1 s4:0 s8:1 s9:1 }
+Stack (top) { 23 0 1 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 139
+Executed line # 8 : TEST_EQU s2(1) s3(1) s4(1) 
+ST { s1:49 s13:10 s2:1 s3:1 s4:1 s8:1 s9:1 }
+Stack (top) { 23 0 1 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 140
+Executed line # 9 : JUMP_IF_0 s4(1) after_if_true_block_4(14) 
+ST { s1:49 s13:10 s2:1 s3:1 s4:1 s8:1 s9:1 }
+Stack (top) { 23 0 1 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 141
+Executed line # 10 : VAL_COPY 1(1) s5(1) 
+ST { s1:49 s13:10 s2:1 s3:1 s4:1 s5:1 s8:1 s9:1 }
+Stack (top) { 23 0 1 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 142
+Executed line # 11 : POP s6(23) 
+ST { s1:49 s13:10 s2:1 s3:1 s4:1 s5:1 s6:23 s8:1 s9:1 }
+Stack (top) { 0 1 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 143
+Executed line # 12 : PUSH s5(1) 
+ST { s1:49 s13:10 s2:1 s3:1 s4:1 s5:1 s6:23 s8:1 s9:1 }
+Stack (top) { 1 0 1 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 144
+Executed line # 13 : JUMP s6(23) 
+ST { s1:49 s13:10 s2:1 s3:1 s4:1 s5:1 s6:23 s8:1 s9:1 }
+Stack (top) { 1 0 1 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 145
+Executed line # 24 : return_from_factorial_5(23) : 
+ST { s1:49 s13:10 s2:1 s3:1 s4:1 s5:1 s6:23 s8:1 s9:1 }
+Stack (top) { 1 0 1 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 146
+Executed line # 25 : POP s7(1) 
+ST { s1:49 s13:10 s2:1 s3:1 s4:1 s5:1 s6:23 s7:1 s8:1 s9:1 }
+Stack (top) { 0 1 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 147
+Executed line # 26 : POP s4(0) 
+ST { s1:49 s13:10 s2:1 s3:1 s4:0 s5:1 s6:23 s7:1 s8:1 s9:1 }
+Stack (top) { 1 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 148
+Executed line # 27 : POP s3(1) 
+ST { s1:49 s13:10 s2:1 s3:1 s4:0 s5:1 s6:23 s7:1 s8:1 s9:1 }
+Stack (top) { 2 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 149
+Executed line # 28 : POP s2(2) 
+ST { s1:49 s13:10 s2:2 s3:1 s4:0 s5:1 s6:23 s7:1 s8:1 s9:1 }
+Stack (top) { 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 150
+Executed line # 29 : MULT s2(2) s7(1) s10(2) 
+ST { s1:49 s10:2 s13:10 s2:2 s3:1 s4:0 s5:1 s6:23 s7:1 s8:1 s9:1 }
+Stack (top) { 23 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 151
+Executed line # 30 : POP s11(23) 
+ST { s1:49 s10:2 s11:23 s13:10 s2:2 s3:1 s4:0 s5:1 s6:23 s7:1 s8:1 s9:1 }
+Stack (top) { 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 152
+Executed line # 31 : PUSH s10(2) 
+ST { s1:49 s10:2 s11:23 s13:10 s2:2 s3:1 s4:0 s5:1 s6:23 s7:1 s8:1 s9:1 }
+Stack (top) { 2 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 153
+Executed line # 32 : JUMP s11(23) 
+ST { s1:49 s10:2 s11:23 s13:10 s2:2 s3:1 s4:0 s5:1 s6:23 s7:1 s8:1 s9:1 }
+Stack (top) { 2 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 154
+Executed line # 24 : return_from_factorial_5(23) : 
+ST { s1:49 s10:2 s11:23 s13:10 s2:2 s3:1 s4:0 s5:1 s6:23 s7:1 s8:1 s9:1 }
+Stack (top) { 2 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 155
+Executed line # 25 : POP s7(2) 
+ST { s1:49 s10:2 s11:23 s13:10 s2:2 s3:1 s4:0 s5:1 s6:23 s7:2 s8:1 s9:1 }
+Stack (top) { 0 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 156
+Executed line # 26 : POP s4(0) 
+ST { s1:49 s10:2 s11:23 s13:10 s2:2 s3:1 s4:0 s5:1 s6:23 s7:2 s8:1 s9:1 }
+Stack (top) { 1 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 157
+Executed line # 27 : POP s3(1) 
+ST { s1:49 s10:2 s11:23 s13:10 s2:2 s3:1 s4:0 s5:1 s6:23 s7:2 s8:1 s9:1 }
+Stack (top) { 3 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 158
+Executed line # 28 : POP s2(3) 
+ST { s1:49 s10:2 s11:23 s13:10 s2:3 s3:1 s4:0 s5:1 s6:23 s7:2 s8:1 s9:1 }
+Stack (top) { 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 159
+Executed line # 29 : MULT s2(3) s7(2) s10(6) 
+ST { s1:49 s10:6 s11:23 s13:10 s2:3 s3:1 s4:0 s5:1 s6:23 s7:2 s8:1 s9:1 }
+Stack (top) { 23 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 160
+Executed line # 30 : POP s11(23) 
+ST { s1:49 s10:6 s11:23 s13:10 s2:3 s3:1 s4:0 s5:1 s6:23 s7:2 s8:1 s9:1 }
+Stack (top) { 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 161
+Executed line # 31 : PUSH s10(6) 
+ST { s1:49 s10:6 s11:23 s13:10 s2:3 s3:1 s4:0 s5:1 s6:23 s7:2 s8:1 s9:1 }
+Stack (top) { 6 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 162
+Executed line # 32 : JUMP s11(23) 
+ST { s1:49 s10:6 s11:23 s13:10 s2:3 s3:1 s4:0 s5:1 s6:23 s7:2 s8:1 s9:1 }
+Stack (top) { 6 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 163
+Executed line # 24 : return_from_factorial_5(23) : 
+ST { s1:49 s10:6 s11:23 s13:10 s2:3 s3:1 s4:0 s5:1 s6:23 s7:2 s8:1 s9:1 }
+Stack (top) { 6 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 164
+Executed line # 25 : POP s7(6) 
+ST { s1:49 s10:6 s11:23 s13:10 s2:3 s3:1 s4:0 s5:1 s6:23 s7:6 s8:1 s9:1 }
+Stack (top) { 0 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 165
+Executed line # 26 : POP s4(0) 
+ST { s1:49 s10:6 s11:23 s13:10 s2:3 s3:1 s4:0 s5:1 s6:23 s7:6 s8:1 s9:1 }
+Stack (top) { 1 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 166
+Executed line # 27 : POP s3(1) 
+ST { s1:49 s10:6 s11:23 s13:10 s2:3 s3:1 s4:0 s5:1 s6:23 s7:6 s8:1 s9:1 }
+Stack (top) { 4 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 167
+Executed line # 28 : POP s2(4) 
+ST { s1:49 s10:6 s11:23 s13:10 s2:4 s3:1 s4:0 s5:1 s6:23 s7:6 s8:1 s9:1 }
+Stack (top) { 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 168
+Executed line # 29 : MULT s2(4) s7(6) s10(24) 
+ST { s1:49 s10:24 s11:23 s13:10 s2:4 s3:1 s4:0 s5:1 s6:23 s7:6 s8:1 s9:1 }
+Stack (top) { 23 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 169
+Executed line # 30 : POP s11(23) 
+ST { s1:49 s10:24 s11:23 s13:10 s2:4 s3:1 s4:0 s5:1 s6:23 s7:6 s8:1 s9:1 }
+Stack (top) { 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 170
+Executed line # 31 : PUSH s10(24) 
+ST { s1:49 s10:24 s11:23 s13:10 s2:4 s3:1 s4:0 s5:1 s6:23 s7:6 s8:1 s9:1 }
+Stack (top) { 24 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 171
+Executed line # 32 : JUMP s11(23) 
+ST { s1:49 s10:24 s11:23 s13:10 s2:4 s3:1 s4:0 s5:1 s6:23 s7:6 s8:1 s9:1 }
+Stack (top) { 24 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 172
+Executed line # 24 : return_from_factorial_5(23) : 
+ST { s1:49 s10:24 s11:23 s13:10 s2:4 s3:1 s4:0 s5:1 s6:23 s7:6 s8:1 s9:1 }
+Stack (top) { 24 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 173
+Executed line # 25 : POP s7(24) 
+ST { s1:49 s10:24 s11:23 s13:10 s2:4 s3:1 s4:0 s5:1 s6:23 s7:24 s8:1 s9:1 }
+Stack (top) { 0 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 174
+Executed line # 26 : POP s4(0) 
+ST { s1:49 s10:24 s11:23 s13:10 s2:4 s3:1 s4:0 s5:1 s6:23 s7:24 s8:1 s9:1 }
+Stack (top) { 1 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 175
+Executed line # 27 : POP s3(1) 
+ST { s1:49 s10:24 s11:23 s13:10 s2:4 s3:1 s4:0 s5:1 s6:23 s7:24 s8:1 s9:1 }
+Stack (top) { 5 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 176
+Executed line # 28 : POP s2(5) 
+ST { s1:49 s10:24 s11:23 s13:10 s2:5 s3:1 s4:0 s5:1 s6:23 s7:24 s8:1 s9:1 }
+Stack (top) { 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 177
+Executed line # 29 : MULT s2(5) s7(24) s10(120) 
+ST { s1:49 s10:120 s11:23 s13:10 s2:5 s3:1 s4:0 s5:1 s6:23 s7:24 s8:1 s9:1 }
+Stack (top) { 23 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 178
+Executed line # 30 : POP s11(23) 
+ST { s1:49 s10:120 s11:23 s13:10 s2:5 s3:1 s4:0 s5:1 s6:23 s7:24 s8:1 s9:1 }
+Stack (top) { 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 179
+Executed line # 31 : PUSH s10(120) 
+ST { s1:49 s10:120 s11:23 s13:10 s2:5 s3:1 s4:0 s5:1 s6:23 s7:24 s8:1 s9:1 }
+Stack (top) { 120 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 180
+Executed line # 32 : JUMP s11(23) 
+ST { s1:49 s10:120 s11:23 s13:10 s2:5 s3:1 s4:0 s5:1 s6:23 s7:24 s8:1 s9:1 }
+Stack (top) { 120 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 181
+Executed line # 24 : return_from_factorial_5(23) : 
+ST { s1:49 s10:120 s11:23 s13:10 s2:5 s3:1 s4:0 s5:1 s6:23 s7:24 s8:1 s9:1 }
+Stack (top) { 120 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 182
+Executed line # 25 : POP s7(120) 
+ST { s1:49 s10:120 s11:23 s13:10 s2:5 s3:1 s4:0 s5:1 s6:23 s7:120 s8:1 s9:1 }
+Stack (top) { 0 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 183
+Executed line # 26 : POP s4(0) 
+ST { s1:49 s10:120 s11:23 s13:10 s2:5 s3:1 s4:0 s5:1 s6:23 s7:120 s8:1 s9:1 }
+Stack (top) { 1 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 184
+Executed line # 27 : POP s3(1) 
+ST { s1:49 s10:120 s11:23 s13:10 s2:5 s3:1 s4:0 s5:1 s6:23 s7:120 s8:1 s9:1 }
+Stack (top) { 6 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 185
+Executed line # 28 : POP s2(6) 
+ST { s1:49 s10:120 s11:23 s13:10 s2:6 s3:1 s4:0 s5:1 s6:23 s7:120 s8:1 s9:1 }
+Stack (top) { 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 186
+Executed line # 29 : MULT s2(6) s7(120) s10(720) 
+ST { s1:49 s10:720 s11:23 s13:10 s2:6 s3:1 s4:0 s5:1 s6:23 s7:120 s8:1 s9:1 }
+Stack (top) { 23 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 187
+Executed line # 30 : POP s11(23) 
+ST { s1:49 s10:720 s11:23 s13:10 s2:6 s3:1 s4:0 s5:1 s6:23 s7:120 s8:1 s9:1 }
+Stack (top) { 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 188
+Executed line # 31 : PUSH s10(720) 
+ST { s1:49 s10:720 s11:23 s13:10 s2:6 s3:1 s4:0 s5:1 s6:23 s7:120 s8:1 s9:1 }
+Stack (top) { 720 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 189
+Executed line # 32 : JUMP s11(23) 
+ST { s1:49 s10:720 s11:23 s13:10 s2:6 s3:1 s4:0 s5:1 s6:23 s7:120 s8:1 s9:1 }
+Stack (top) { 720 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 190
+Executed line # 24 : return_from_factorial_5(23) : 
+ST { s1:49 s10:720 s11:23 s13:10 s2:6 s3:1 s4:0 s5:1 s6:23 s7:120 s8:1 s9:1 }
+Stack (top) { 720 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 191
+Executed line # 25 : POP s7(720) 
+ST { s1:49 s10:720 s11:23 s13:10 s2:6 s3:1 s4:0 s5:1 s6:23 s7:720 s8:1 s9:1 }
+Stack (top) { 0 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 192
+Executed line # 26 : POP s4(0) 
+ST { s1:49 s10:720 s11:23 s13:10 s2:6 s3:1 s4:0 s5:1 s6:23 s7:720 s8:1 s9:1 }
+Stack (top) { 1 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 193
+Executed line # 27 : POP s3(1) 
+ST { s1:49 s10:720 s11:23 s13:10 s2:6 s3:1 s4:0 s5:1 s6:23 s7:720 s8:1 s9:1 }
+Stack (top) { 7 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 194
+Executed line # 28 : POP s2(7) 
+ST { s1:49 s10:720 s11:23 s13:10 s2:7 s3:1 s4:0 s5:1 s6:23 s7:720 s8:1 s9:1 }
+Stack (top) { 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 195
+Executed line # 29 : MULT s2(7) s7(720) s10(5040) 
+ST { s1:49 s10:5040 s11:23 s13:10 s2:7 s3:1 s4:0 s5:1 s6:23 s7:720 s8:1 s9:1 }
+Stack (top) { 23 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 196
+Executed line # 30 : POP s11(23) 
+ST { s1:49 s10:5040 s11:23 s13:10 s2:7 s3:1 s4:0 s5:1 s6:23 s7:720 s8:1 s9:1 }
+Stack (top) { 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 197
+Executed line # 31 : PUSH s10(5040) 
+ST { s1:49 s10:5040 s11:23 s13:10 s2:7 s3:1 s4:0 s5:1 s6:23 s7:720 s8:1 s9:1 }
+Stack (top) { 5040 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 198
+Executed line # 32 : JUMP s11(23) 
+ST { s1:49 s10:5040 s11:23 s13:10 s2:7 s3:1 s4:0 s5:1 s6:23 s7:720 s8:1 s9:1 }
+Stack (top) { 5040 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 199
+Executed line # 24 : return_from_factorial_5(23) : 
+ST { s1:49 s10:5040 s11:23 s13:10 s2:7 s3:1 s4:0 s5:1 s6:23 s7:720 s8:1 s9:1 }
+Stack (top) { 5040 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 200
+Executed line # 25 : POP s7(5040) 
+ST { s1:49 s10:5040 s11:23 s13:10 s2:7 s3:1 s4:0 s5:1 s6:23 s7:5040 s8:1 s9:1 }
+Stack (top) { 0 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 201
+Executed line # 26 : POP s4(0) 
+ST { s1:49 s10:5040 s11:23 s13:10 s2:7 s3:1 s4:0 s5:1 s6:23 s7:5040 s8:1 s9:1 }
+Stack (top) { 1 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 202
+Executed line # 27 : POP s3(1) 
+ST { s1:49 s10:5040 s11:23 s13:10 s2:7 s3:1 s4:0 s5:1 s6:23 s7:5040 s8:1 s9:1 }
+Stack (top) { 8 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 203
+Executed line # 28 : POP s2(8) 
+ST { s1:49 s10:5040 s11:23 s13:10 s2:8 s3:1 s4:0 s5:1 s6:23 s7:5040 s8:1 s9:1 }
+Stack (top) { 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 204
+Executed line # 29 : MULT s2(8) s7(5040) s10(40320) 
+ST { s1:49 s10:40320 s11:23 s13:10 s2:8 s3:1 s4:0 s5:1 s6:23 s7:5040 s8:1 s9:1 }
+Stack (top) { 23 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 205
+Executed line # 30 : POP s11(23) 
+ST { s1:49 s10:40320 s11:23 s13:10 s2:8 s3:1 s4:0 s5:1 s6:23 s7:5040 s8:1 s9:1 }
+Stack (top) { 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 206
+Executed line # 31 : PUSH s10(40320) 
+ST { s1:49 s10:40320 s11:23 s13:10 s2:8 s3:1 s4:0 s5:1 s6:23 s7:5040 s8:1 s9:1 }
+Stack (top) { 40320 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 207
+Executed line # 32 : JUMP s11(23) 
+ST { s1:49 s10:40320 s11:23 s13:10 s2:8 s3:1 s4:0 s5:1 s6:23 s7:5040 s8:1 s9:1 }
+Stack (top) { 40320 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 208
+Executed line # 24 : return_from_factorial_5(23) : 
+ST { s1:49 s10:40320 s11:23 s13:10 s2:8 s3:1 s4:0 s5:1 s6:23 s7:5040 s8:1 s9:1 }
+Stack (top) { 40320 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 209
+Executed line # 25 : POP s7(40320) 
+ST { s1:49 s10:40320 s11:23 s13:10 s2:8 s3:1 s4:0 s5:1 s6:23 s7:40320 s8:1 s9:1 }
+Stack (top) { 0 1 9 23 0 1 10 38 } (bottom)
+
+Step # 210
+Executed line # 26 : POP s4(0) 
+ST { s1:49 s10:40320 s11:23 s13:10 s2:8 s3:1 s4:0 s5:1 s6:23 s7:40320 s8:1 s9:1 }
+Stack (top) { 1 9 23 0 1 10 38 } (bottom)
+
+Step # 211
+Executed line # 27 : POP s3(1) 
+ST { s1:49 s10:40320 s11:23 s13:10 s2:8 s3:1 s4:0 s5:1 s6:23 s7:40320 s8:1 s9:1 }
+Stack (top) { 9 23 0 1 10 38 } (bottom)
+
+Step # 212
+Executed line # 28 : POP s2(9) 
+ST { s1:49 s10:40320 s11:23 s13:10 s2:9 s3:1 s4:0 s5:1 s6:23 s7:40320 s8:1 s9:1 }
+Stack (top) { 23 0 1 10 38 } (bottom)
+
+Step # 213
+Executed line # 29 : MULT s2(9) s7(40320) s10(362880) 
+ST { s1:49 s10:362880 s11:23 s13:10 s2:9 s3:1 s4:0 s5:1 s6:23 s7:40320 s8:1 s9:1 }
+Stack (top) { 23 0 1 10 38 } (bottom)
+
+Step # 214
+Executed line # 30 : POP s11(23) 
+ST { s1:49 s10:362880 s11:23 s13:10 s2:9 s3:1 s4:0 s5:1 s6:23 s7:40320 s8:1 s9:1 }
+Stack (top) { 0 1 10 38 } (bottom)
+
+Step # 215
+Executed line # 31 : PUSH s10(362880) 
+ST { s1:49 s10:362880 s11:23 s13:10 s2:9 s3:1 s4:0 s5:1 s6:23 s7:40320 s8:1 s9:1 }
+Stack (top) { 362880 0 1 10 38 } (bottom)
+
+Step # 216
+Executed line # 32 : JUMP s11(23) 
+ST { s1:49 s10:362880 s11:23 s13:10 s2:9 s3:1 s4:0 s5:1 s6:23 s7:40320 s8:1 s9:1 }
+Stack (top) { 362880 0 1 10 38 } (bottom)
+
+Step # 217
+Executed line # 24 : return_from_factorial_5(23) : 
+ST { s1:49 s10:362880 s11:23 s13:10 s2:9 s3:1 s4:0 s5:1 s6:23 s7:40320 s8:1 s9:1 }
+Stack (top) { 362880 0 1 10 38 } (bottom)
+
+Step # 218
+Executed line # 25 : POP s7(362880) 
+ST { s1:49 s10:362880 s11:23 s13:10 s2:9 s3:1 s4:0 s5:1 s6:23 s7:362880 s8:1 s9:1 }
+Stack (top) { 0 1 10 38 } (bottom)
+
+Step # 219
+Executed line # 26 : POP s4(0) 
+ST { s1:49 s10:362880 s11:23 s13:10 s2:9 s3:1 s4:0 s5:1 s6:23 s7:362880 s8:1 s9:1 }
+Stack (top) { 1 10 38 } (bottom)
+
+Step # 220
+Executed line # 27 : POP s3(1) 
+ST { s1:49 s10:362880 s11:23 s13:10 s2:9 s3:1 s4:0 s5:1 s6:23 s7:362880 s8:1 s9:1 }
+Stack (top) { 10 38 } (bottom)
+
+Step # 221
+Executed line # 28 : POP s2(10) 
+ST { s1:49 s10:362880 s11:23 s13:10 s2:10 s3:1 s4:0 s5:1 s6:23 s7:362880 s8:1 s9:1 }
+Stack (top) { 38 } (bottom)
+
+Step # 222
+Executed line # 29 : MULT s2(10) s7(362880) s10(3628800) 
+ST { s1:49 s10:3628800 s11:23 s13:10 s2:10 s3:1 s4:0 s5:1 s6:23 s7:362880 s8:1 s9:1 }
+Stack (top) { 38 } (bottom)
+
+Step # 223
+Executed line # 30 : POP s11(38) 
+ST { s1:49 s10:3628800 s11:38 s13:10 s2:10 s3:1 s4:0 s5:1 s6:23 s7:362880 s8:1 s9:1 }
+
+Step # 224
+Executed line # 31 : PUSH s10(3628800) 
+ST { s1:49 s10:3628800 s11:38 s13:10 s2:10 s3:1 s4:0 s5:1 s6:23 s7:362880 s8:1 s9:1 }
+Stack (top) { 3628800 } (bottom)
+
+Step # 225
+Executed line # 32 : JUMP s11(38) 
+ST { s1:49 s10:3628800 s11:38 s13:10 s2:10 s3:1 s4:0 s5:1 s6:23 s7:362880 s8:1 s9:1 }
+Stack (top) { 3628800 } (bottom)
+
+Step # 226
+Executed line # 39 : return_from_factorial_6(38) : 
+ST { s1:49 s10:3628800 s11:38 s13:10 s2:10 s3:1 s4:0 s5:1 s6:23 s7:362880 s8:1 s9:1 }
+Stack (top) { 3628800 } (bottom)
+
+Step # 227
+Executed line # 40 : POP s12(3628800) 
+ST { s1:49 s10:3628800 s11:38 s12:3628800 s13:10 s2:10 s3:1 s4:0 s5:1 s6:23 s7:362880 s8:1 s9:1 }
+
+Step # 228
+Executed line # 41 : OUT_NUM s12(3628800) 
+ST { s1:49 s10:3628800 s11:38 s12:3628800 s13:10 s2:10 s3:1 s4:0 s5:1 s6:23 s7:362880 s8:1 s9:1 }
+
+Step # 229
+Executed line # 42 : OUT_CHAR 10(10) 
+ST { s1:49 s10:3628800 s11:38 s12:3628800 s13:10 s2:10 s3:1 s4:0 s5:1 s6:23 s7:362880 s8:1 s9:1 }
+
+Step # 230
+Executed line # 43 : RANDOM s14(97) 
+ST { s1:49 s10:3628800 s11:38 s12:3628800 s13:10 s14:97 s2:10 s3:1 s4:0 s5:1 s6:23 s7:362880 s8:1 s9:1 }
+
+Step # 231
+Executed line # 44 : OUT_NUM s14(97) 
+ST { s1:49 s10:3628800 s11:38 s12:3628800 s13:10 s14:97 s2:10 s3:1 s4:0 s5:1 s6:23 s7:362880 s8:1 s9:1 }
+
+Step # 232
+Executed line # 45 : OUT_CHAR 10(10) 
+ST { s1:49 s10:3628800 s11:38 s12:3628800 s13:10 s14:97 s2:10 s3:1 s4:0 s5:1 s6:23 s7:362880 s8:1 s9:1 }
+
